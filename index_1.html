@@ -1,0 +1,105 @@
+  <!DOCTYPE html>
+  <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+  <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+  <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+  <!--[if gt IE 8]><!--> <html class="no-js" lang="fr"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- titre seo -->
+    <title>Le jeu du SHIFUMI</title>
+    <!-- meta -->
+    <meta name="description" content="A vous de jouer au Shifumi !">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- lien font -->
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <!-- lien css style -->
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+
+
+    <body>
+    <!-- main titre -->
+    <div class="header-title">
+      <div class="title">
+        <h1><span class="colorLetter">SHI</span>FU<span class="colorLetter">MI</span></h1>
+      </div>
+    </div>
+    <!-- rules & logo-->
+    <section id="container-regle">
+      <div class="logo">
+        <img src="assets/img/logo.gif" alt="shifumi" width="150">
+      </div>
+      <div class="rules">
+        <p>Gagne ton SHIFUMI en ligne inscris toi et remporte ton championnat! <br>
+          <br>Dépose ton symbole dans la case JOUEUR</p>
+          <p>LE PRINCIPE DU JEU :<span class="LetterColor">
+            <br>La feuille bat la pierre.</span> La pierre bat les ciseaux.<span class="LetterColor"> <br> Les ciseaux battent la feuille.</span><br><br> <span class="GL">GOOD <br> LUCK!</span>
+      </div>
+    </section>
+
+
+        <!-- JOUEUR ET COMPUTER ONE BLOC  -->
+        <div class="container">
+          <div id="rate"></div>
+
+          <!--  MAIN SOUS BLOC JOUEUR -->
+          <main class="Container_playeur">
+            <!-- section -->
+            <section class="playeur">
+              <div class="victoire-icon"><p>BRAVO !<span id="score">0 </span></p></div>
+              <div class="drop-card-playeur" id="droppable"></div>
+              <div class="perte-icon"><p>ESSAI ENCORE<span id="">0</span></p></div>
+            </section>
+          </main>
+
+          <!--  MAIN SOUS BLOC COMPUTER -->
+          <main class="Container_computer">
+            <!-- section -->
+            <section class="computer">
+              <div class="victoire-icon"><p>BRAVO !</p></div>
+              <div class="drop-card-computer">
+                <img id="pierreComputer" src="assets/img/pierre.gif" alt="pierreComputer">
+                <img id="ciseauxComputer" src="assets/img/ciseaux.gif" alt="ciseauxComputer">
+                <img id="feuilleComputer" src="assets/img/feuille.gif" alt="feuilleComputer">
+              </div>
+              <div class="perte-icon"><p>ESSAI ENCORE</p></div>
+            </section>
+          </main>
+        </div>
+
+        <div class="fushimi-container">
+          <div class="game">
+            <div class="shifumi">
+              <div class="choice answer fushimi-img1" id="rockChoice">
+                <img class="img" src="assets/img/pierre.gif" alt="pierre" />
+              </div>
+              <div class="choice answer fushimi-img2" id="paperChoice">
+                <img class="img" src="assets/img/feuille.gif" alt="feuille" />
+              </div>
+              <div class="choice answer fushimi-img3" id="scissorsChoice">
+                <img class="img" src="assets/img/ciseaux.gif" alt="ciseaux" />
+              </div>
+            </div>
+           
+          </div>
+    
+        </div>
+
+        <div class="footer">
+          <div class="footer-copywrite">
+            <h5>copyright</h5>
+            </div>
+        </div>
+
+
+            <!-- script -->
+            <script src="https://kit.fontawesome.com/fe06ecf098.js" crossorigin="anonymous"></script>
+            <script src="assets/js/jquery-3.5.1.min.js"></script>
+            <script src="assets/js/jquery-ui.js"></script>
+            <script src="assets/js/script.js"></script>
+
+
+
+</body>
+</html>
